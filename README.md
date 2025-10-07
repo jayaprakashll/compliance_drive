@@ -1,7 +1,7 @@
 # 🧮 Invoicing ROI Simulator
 
 A lightweight ROI calculator that helps businesses visualize **savings, ROI, and payback** when switching from **manual to automated invoicing**.  
-Built with **Flask (backend)**, **Streamlit (frontend)**, and **SQLite (database)** — designed to be completed within 3 hours.
+Built with **Flask (backend)**, **Streamlit (frontend)**, and **SQLite (database)** 
 
 ---
 
@@ -33,3 +33,26 @@ Built with **Flask (backend)**, **Streamlit (frontend)**, and **SQLite (database
 ```bash
 git clone https://github.com/<your-username>/invoicing-roi-simulator.git
 cd invoicing-roi-simulator
+
+### 2️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+
+invoicing-roi-simulator/
+│
+├── backend/
+│   ├── app.py          # Flask API
+│   ├── db.py           # SQLite setup
+│   ├── models.py       # Scenario model
+│   ├── report.py       # PDF/HTML report generation
+│   └── __init__.py
+│
+├── frontend/
+│   └── app.py          # Streamlit UI
+│
+├── data/
+│   └── scenarios.db    # SQLite database file
+│
+├── requirements.txt
+└── README.md
+
