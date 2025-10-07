@@ -42,4 +42,4 @@ pip install -r requirements.txt
 
 Here’s what the ROI Simulator looks like in action 👇  
 
-![ROI Simulator Screenshot](ouput.jpeg)
+![ROI Simulator Screenshot](Screenshot_7-10-2025_17123_localhost.jpeg)
