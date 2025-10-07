@@ -33,11 +33,11 @@ Built with **Flask (backend)**, **Streamlit (frontend)**, and **SQLite (database
 ```bash
 git clone https://github.com/<your-username>/invoicing-roi-simulator.git
 cd invoicing-roi-simulator
-
+```
 ### 2️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
-
+```
 invoicing-roi-simulator/
 │
 ├── backend/
@@ -55,4 +55,4 @@ invoicing-roi-simulator/
 │
 ├── requirements.txt
 └── README.md
-
+```
