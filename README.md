@@ -38,21 +38,3 @@ cd invoicing-roi-simulator
 ```bash
 pip install -r requirements.txt
 ```
-invoicing-roi-simulator/
-│
-├── backend/
-│   ├── app.py          # Flask API
-│   ├── db.py           # SQLite setup
-│   ├── models.py       # Scenario model
-│   ├── report.py       # PDF/HTML report generation
-│   └── __init__.py
-│
-├── frontend/
-│   └── app.py          # Streamlit UI
-│
-├── data/
-│   └── scenarios.db    # SQLite database file
-│
-├── requirements.txt
-└── README.md
-
